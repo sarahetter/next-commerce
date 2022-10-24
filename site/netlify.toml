@@ -1,3 +1,6 @@
 [build]
 command = "cd .. && pnpm run build"
 publish = ".next"
+
+[build.environment]
+  NETLIFY_USE_PNPM = "true"
