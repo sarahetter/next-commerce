@@ -1,0 +1,2 @@
+[build]
+command = "cd .. && pnpm run build"
